@@ -39,7 +39,7 @@ export default function Filter({
           placeholder="Search"
           value={searchText}
           onChange={handleSearch}
-          className="h-8 w-auto md:w-20 lg:h-10 lg:w-32"
+          className="h-8 w-auto md:w-30 lg:h-10 lg:w-32"
         ></input>
       </div>
       <div className="relative" ref={sortOptionsRef}>
